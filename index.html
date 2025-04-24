@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(197, 240, 240);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            font-family: sans-serif;
+        }
+        .container {
+            width: 300px;
+            padding: 10px;
+            background: #fff;
+            height: fit-content;
+        }
+        input {
+            padding: 5px;
+            width: 100%;
+            margin-right: 5px;
+        }
+        button {
+            width: 100px;
+        }
+        li {
+            list-style: none;
+            border: solid 1px;
+            padding: 5px;
+            width: 100%;
+            margin-right: 5px;
+            overflow: hidden;
+        }
+
+    </style>
+
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h2 style="text-align: center;">TODO APP</h2>
+        <div class="input-div" style="display: flex; margin-top: 20px;">
+            <input id="inputTodo" type="text" placeholder="Add a todo ">
+            <button id="addTodoBtn" onclick="displayTodo()">add todo</button>
+        </div>
+        <ul>
+            
+        </ul>
+    </div>
+
+</body>
+</html>
