@@ -72,7 +72,7 @@ const deleteTodo = function(button) {
     localStorage.removeItem(`${key}`);
 
     updateDisplayTodo();
-};
+}; 
 
 
 // localStorage.clear();
